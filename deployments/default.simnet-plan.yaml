@@ -50,13 +50,13 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
-            contract-name: fair-play-monitor
+            contract-name: league-operator
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
-            path: contracts/fair-play-monitor.clar
+            path: contracts/league-operator.clar
             clarity-version: 2
         - emulated-contract-publish:
-            contract-name: player-stats
+            contract-name: prize-distribution
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
-            path: contracts/player-stats.clar
+            path: contracts/prize-distribution.clar
             clarity-version: 2
       epoch: "2.5"
