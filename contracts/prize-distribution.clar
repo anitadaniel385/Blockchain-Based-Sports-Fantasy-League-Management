@@ -1,5 +1,5 @@
 
-;; title: player-stats
+;; title: prize-distribution
 ;; version:
 ;; summary:
 ;; description:

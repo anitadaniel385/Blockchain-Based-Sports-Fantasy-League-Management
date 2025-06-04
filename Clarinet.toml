@@ -5,13 +5,13 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
-[contracts.fair-play-monitor]
-path = 'contracts/fair-play-monitor.clar'
+[contracts.league-operator]
+path = 'contracts/league-operator.clar'
 clarity_version = 2
 epoch = 2.5
 
-[contracts.player-stats]
-path = 'contracts/player-stats.clar'
+[contracts.prize-distribution]
+path = 'contracts/prize-distribution.clar'
 clarity_version = 2
 epoch = 2.5
 [repl.analysis]
